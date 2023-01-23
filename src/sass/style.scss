@@ -1,0 +1,20 @@
+* {
+    font-family: 'Montserrat', 'PlayfairDisplay', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+@import 'blocks/lines';
+@import 'blocks/main';
+@import 'blocks/buttons';
+@import 'blocks/taste';
+@import 'blocks/title';
+@import 'blocks/degustation';
+@import 'blocks/footer';
+@import 'blocks/collection';

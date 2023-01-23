@@ -1,0 +1,85 @@
+.degustation {
+    background-color: #282828;
+    min-height: 767px;
+    padding: 134px 0 100px 0;
+    fieldset {
+        border: solid 3px #fff;
+    }
+
+    input::placeholder {
+            color: #fff;
+        }
+
+    &__forms {
+        position: relative;
+    }
+    &__grape {
+        position: absolute;
+        left: -75px;
+        top: -45px;
+    }
+
+    &__barrel {
+        position: absolute;
+        right: -75px;
+        top: -45px;
+    }
+    &__reg {
+        font-family: 'Playfair Display';
+        color: #fff;
+        font-size: 36px;
+        text-align: center;
+        padding: 0 50px;
+    }
+
+    &__descr {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    &__input {
+        display: flex;
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+    &__topform {
+        display: block;
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 150%;
+        width: 255px;
+        height: 30px;
+        color: #fff;
+        background-color: #282828;
+        border: 1px solid #bdbdbd;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        &:last-child {
+            margin-left: 30px;
+        }
+    }
+
+    &__botform {
+        display: block;
+        font-family: inherit;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 150%;
+        width: 540px;
+        height: 30px;
+        background-color: #282828;
+        border: 1px solid #bdbdbd;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+}

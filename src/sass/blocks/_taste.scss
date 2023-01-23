@@ -1,0 +1,37 @@
+.taste {
+    background-color: #282828;
+    min-height: 856px;
+    padding: 100px 405px 100px 405px;
+    color: #ffff;
+
+    &__title {
+        padding-bottom: 40px;
+    }
+
+    &__line {
+        margin: 0 auto;
+        border-top: 1px solid #fff;
+        width: 160px;
+    }
+
+    &__border {
+        padding: 60px 187px;
+        border: solid 1px #fff;
+    }
+
+    &__descr {
+        padding-top: 40px;
+        text-align: center;
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+    }
+    
+    &__glass {
+        padding-top: 60px;
+        display: block;
+        margin: 0 auto;
+    }
+   
+}

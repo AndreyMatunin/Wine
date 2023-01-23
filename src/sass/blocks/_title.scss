@@ -1,0 +1,14 @@
+.title {
+    font-size: 36px;
+    line-height: 150%;
+    font-family: 'Playfair Display';
+    &_white {
+        color: #fff; 
+        text-align: center;   
+    }
+    &_table {
+        font-size: 18px;
+        color: #282828;
+    }
+    
+}

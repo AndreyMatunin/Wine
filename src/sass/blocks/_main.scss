@@ -1,0 +1,62 @@
+.main {
+    background: url(../img/main.png) center (center/cover) no-repeat;
+    min-height: 900px;
+    padding: 30px 403px 150px 403px;
+    color: #FFFFFF;
+   /*  &__nav {
+        color: #FFFFFF;
+    } */
+    
+    &__link {
+        text-decoration: none;
+        text-align: center;
+        color: #FFFFFF;
+        font-weight: 400;
+        font-size: 14px;
+    }    
+
+    li { 
+        padding: 13px 100px 13px 100px;
+        border: solid 1px #ffffff;
+        width: 1100px;
+        list-style-type: none;
+        border-right: none;
+        &:first-child {
+            border-left: none;
+        }
+    }
+
+    &__list {
+        margin-top: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    &__buttons {
+        margin-top: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & :first-child {
+            margin-right: 50px;
+        }
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+
+        &__address {
+            font-weight: 500;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+        &__contact {
+            font-weight: 500;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+    }
+}
