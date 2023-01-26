@@ -3,9 +3,6 @@
     min-height: 900px;
     padding: 30px 0px 150px 0px;
     color: #FFFFFF;
-   /*  &__nav {
-        color: #FFFFFF;
-    } */
     
     &__link {
         text-decoration: none;
@@ -21,6 +18,13 @@
         width: 1100px;
         list-style-type: none;
         border-right: none;
+        a:hover {
+            color: #1e1e1e;
+        }
+        &:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+            transition: 1s;
+        }
         &:first-child {
             border-left: none;
         }
@@ -38,9 +42,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        & :first-child {
-            margin-right: 50px;
-        }
     }
 
     .header {
@@ -56,6 +57,10 @@
             font-weight: 500;
             color: #FFFFFF;
             text-decoration: none;
+            &:hover {
+                color: #515151;
+                transition: 1s;
+            }
         }
 
     }
